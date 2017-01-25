@@ -1,0 +1,274 @@
+html { height: 100% }
+body { margin: 0px; padding: 0px;
+       background-image:url("../IMAGES/background2.jpg");
+       background-repeat: repeat;	
+       background-position:center;
+
+}
+/*************************Menu principal *******************/
+#idMenuP{
+    background-color: #34495E;color:whitesmoke;height:30px; 
+}
+
+#idMenuP ul {
+    float: right; margin-right: 25px; margin-top: 5px;
+}
+div>ul{
+    list-style-type:none;
+}
+
+div li{
+    display: inline;
+    margin-right: 15px;
+}
+li:hover{
+    cursor: pointer;
+    color: orange;
+}
+/********************************Menu secondaire ********************/
+#idMenuS{
+    background-color:whitesmoke; height: 70px;
+}
+#idMenuS ul{
+    position:absolute;float:right;right:25px;top:52px;
+}
+/*******************Logo de clinique *********************/
+#idMenuS img{ 
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 15px;
+
+} 
+
+#idDivImage{
+    position :relative;
+    background-color:black;left:15%;
+    box-shadow: 5px 5px  5px #333;
+    width: 70%;
+    height: 300px;
+
+}   
+
+#idCliniqueMessage{
+    position:relative;font-family: cursive;top:-200px;left:50%;font-size: 15px;width: 300px;  
+}
+
+#idLoginPage{
+    position:absolute;top:0;left:0;background:rgba(0,0,0,0.8);height:100%; width:100%; display: none;
+    z-index: 2;
+}
+
+#idDivLogin{
+    position:absolute;top:35%; width: 300px; left:40%;height: auto;
+}
+
+/***********************debut CSS Page Nous rejoindre****************/
+#idContactSection{
+
+    position: relative;top:25px;left:10%;width: 80%;
+    z-index: 1;
+    background-color: white;
+
+} 
+
+
+#idcontactInfo{
+    margin-left: 2%;
+    margin-top: 20px;
+}  
+
+#idContactEmail{
+    float: right;
+    margin-top: -100px;
+    width: 50%;
+    height: auto;
+
+
+
+}
+/***********************Fin CSS Page nous joindre ***/
+
+
+#idInfoPatient{
+    position: absolute;
+    top:120px;
+
+}
+#accordion{
+    position: absolute; width: 50%;float:right;top:120px;right:25px;  
+}
+#idInfoPatient>span{
+    font-size: 25px;
+    color: darkcyan;
+    font-weight: bold;
+}
+
+#idImageRendezVous{
+    position: relative;
+    float: right;
+
+}
+
+#idImageRendezVous img{
+    height: 400px;
+    width: auto;
+
+}
+
+
+
+div.input-group{
+    width: 100%;
+}
+
+div.imageStyle{
+    width: auto;
+    height: auto;
+}
+
+div.imageStyle img{
+    width:280px ;
+    height:150px;
+}
+
+div.col-md-3>ul{
+    list-style: none;
+}
+
+div.footer div.row{
+    position: relative;
+    top: 50%;
+}
+
+div.imageStyle:hover{
+    background-color: azure;
+}
+
+
+div#idBlocImages{
+    position: relative;
+    top:100px;
+    width:100%;
+    left:12%;
+}
+
+div.imageStyle{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+.point{
+    cursor: pointer();
+}
+
+select.selectpicker{
+    width: 50px;
+}
+
+
+img.clImageInscr{
+    position:relative;float:right;right:16%;
+}
+
+img.clImageInscr:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #333333;
+}
+
+
+.table-hover{
+    cursor: pointer;
+}  
+
+/*************** Page Appointements ************/
+
+/* tableau d'affichage */
+#idTableAffiche{
+    position:absolute;
+    top:390px;
+    left:5%;
+    width:90%;
+    background-color:whitesmoke;
+    height:420px;  
+}
+#idTableAffiche table{
+    position: relative;
+
+}
+#idTableAffiche tr:first-child th:first-child {
+    background: white;
+    color:darkblue;
+    font-size: 20px;
+
+}
+
+#idTableAffiche  td:first-child {
+    background: yellow;
+    color:darkblue;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
+#idTableAffiche tr:hover{
+    cursor: pointer;
+    background: orange;
+}
+
+#idTableAffiche th{
+    font-size: 15px;
+    text-align: center;
+    background:space;
+    color:darkblue;
+}    
+
+
+
+.clRnonFini{
+    font-size: 15px;
+    text-align: center;
+    color:black;
+    background:lightskyblue;
+}
+td.clRFini{
+    font-size: 15px;
+    text-align: center;
+    color:white;
+    background:red;
+}
+
+#idFermerSession{
+    position:relative;
+    float: left;
+    color: black;
+    background:buttonface;
+
+}
+
+/*************** fin Page Appointements ************/
+
+
+
+
+#idRendezVous{
+    height: 95px;
+    position:relative;
+    top:-40px;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #333;
+    background-color: white;
+    font-size:30px; 
+    text-align: center;
+    padding-top: 20px;
+} 
+
+#idRendezVous:hover{
+    cursor: pointer;
+    background-color:darkgray;
+    border-radius: 5px;
+}
+
